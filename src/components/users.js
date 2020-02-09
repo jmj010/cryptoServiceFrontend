@@ -8,7 +8,7 @@ import Paper from '@material-ui/core/Paper';
 
 function createData(name, age, email, last_login, role) {
   return {
-    name, age, email, last_login,  role,
+    name, age, email, last_login, role,
   };
 }
 
