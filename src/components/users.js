@@ -41,8 +41,8 @@ export default function DenseTable() {
                 <TableCell component="th" scope="row"> 
                   {row.name}
                 </TableCell>
-                <TableCell align="right">Name: {row.name}</TableCell>
-                <TableCell align="right">Age: {row.age}</TableCell>
+                <TableCell align="right">{row.name}</TableCell>
+                <TableCell align="right">{row.age}</TableCell>
                 <TableCell align="right">Email: {row.email}</TableCell>
                 <TableCell align="right">Role: {row.role}</TableCell>
               </TableRow>
